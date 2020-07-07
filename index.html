@@ -1,775 +1,732 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+    <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Vardhan Adabala</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8" />
+        <title>Vardhan - Personal Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" href="favicon.jpg" type="image/jpg">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.jpg">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Magnific -->
+        <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <!-- Slider -->               
+        <link rel="stylesheet" href="css/owl.carousel.min.css"/> 
+        <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+        <!-- Flickity -->
+        <link href="css/flickity.css" rel="stylesheet" type="text/css" />
+        <!-- Main css File -->
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
-    <!-- CSS Files -->
-    <link type="text/css" media="all" href="css/bootstrap.min.css" rel="stylesheet">
-    <link type="text/css" media="all" href="css/jquery.animatedheadline.css" rel="stylesheet">
-    <link type="text/css" media="all" href="css/font-awesome.min.css" rel="stylesheet">
-    <link type="text/css" media="all" href="css/style.css" rel="stylesheet">
-    <link type="text/css" media="all" href="css/skins/yellow.css" rel="stylesheet">
-
-    <!-- JS Files -->
-    <script src="js/modernizr.js"></script>
-
-
-
-
-
-
-</head>
-
-<body class="light dark-header bgimage">
-<div class="page">
-
-    <!-- Header Starts -->
-    <header id="header">
-        <div class="nav-container">
-            <div>
-                <!-- Mobile Navigation Starts -->
-                <ul id="nav" class="navigation">
-                    <li class="active">
-                        <div>
-                            <a id="link-home" href="#home" class="active">
-                                <i class="fa fa-home"></i><span>Home</span>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a id="link-about" href="#about">
-                                <i class="fa fa-user"></i><span>About me</span>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a id="link-work" href="#work">
-                                <i class="fa fa-briefcase"></i><span>my Portfolio</span>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <a id="link-contact" href="#contact">
-                                <i class="fa fa-envelope-open"></i><span>get in touch</span>
-                            </a>
-                        </div>
-                    </li>
-
-                </ul>
-                <!-- Mobile Navigation Ends -->
+    <body>
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
             </div>
         </div>
-        <!-- Stretchy Navigation Starts -->
-        <div class="cd-stretchy-nav lighter">
-            <a class="cd-nav-trigger" href="#0">
-                <span aria-hidden="true"></span>
-            </a>
-            <ul class="stretchy-nav">
-                <li class="active"><a class="home" href="#home"><span>Home</span></a></li>
-                <li><a href="#about"><span>About</span></a></li>
-                <li><a href="#work"><span>Portfolio</span></a></li>
-                <li><a href="#contact"><span>Contact</span></a></li>
+        <!-- Loader -->
 
-            </ul>
-            <span aria-hidden="true" class="stretchy-nav-bg"></span>
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-custom navbar-light sticky">
+    		<div class="container">
+                <!-- Logo container-->
+                <a class="logo navbar-brand" href="#">Vardhan</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <span data-feather="menu" class="fea icon-md"></span>
+                </button><!--end button-->
+
+                <div class="collapse navbar-collapse navigation" id="navbarCollapse">
+                    <ul class="navbar-nav navbar-nav-link ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li><!--end nav item-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#services">Services</a>-->
+<!--                        </li>&lt;!&ndash;end nav item&ndash;&gt;-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">Resume</a>
+                        </li><!--end nav item-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li><!--end nav item-->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li><!--end nav item-->
+
+                    </ul>
+
+                    <ul class="top-right text-right list-unstyled list-inline mb-0 mt-2 mt-sm-0 nav-social">
+                        <li class="list-inline-item mr-2"><a href="https://facebook.com/vardhan.adabala"><i class="mdi mdi-facebook"></i></a></li>
+                        <li class="list-inline-item mr-2"><a href="https://twitter.com/AdabalaVardhan"><i class="mdi mdi-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/vardhan_adabala"><i class="mdi mdi-instagram"></i></a></li>
+                    </ul>
+                    
+                </div> 
+            </div><!--end container-->
+		</nav><!--end navbar-->
+        <!-- Navbar End -->
+
+        <!-- Hero Area -->
+        <div class="hero-area position-relative bg-half-120" id="home" style="background-image:url('images/leftimage-bg.jpg')">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-md-12 align-items-center text-center">
+                        <div class="title-heading mt-4 pb-60">
+                            <img src="images/vardhan1.jpeg" class="img-fluid rounded-circle" alt="">
+                            <h1 class="heading font-36 text-white mt-4">Here I'am Vardhan Adabala</h1>
+                            <h6 class="designation mb-3 text-white">I'm a Passionate <span class="text-primary">Web Developer</span></h6>
+                            <div class="hero-btn mt-4 pt-2">
+                                <a href="#contact" class="btn btn-primary rounded mr-2 mb-2">Hire Me</a>
+                                <a href="Resume.pdf" download class="btn btn-primary rounded text-white mb-2">Download CV <i data-feather="download" class="fea icon-sm"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Stretchy Navigation Ends -->
-    </header>
-    <!-- Header Ends -->
-    <!-- Main Content Starts -->
-    <main id="main">
-        <!-- Back To Home Starts [ONLY MOBILE] -->
-        <span class="back-mobile" id="back-mobile"><i class="fa fa-arrow-left"></i></span>
-        <!-- Back To Home Ends [ONLY MOBILE] -->
-        <!-- Home Section Starts -->
-        <section id="home" class="active">
-            <!-- Text Rotator Starts -->
-            <div class="main-text-container">
-                <img class="leftimagepicture" src="img/vardhan1.jpeg" alt="" />
-                <div class="main-text" id="selector">
-                    <h3>Hi there !</h3>
-                    <h1 class="ah-headline">
-                        I'm
-                        <span class="ah-words-wrapper">
-							<b class="is-visible">Vardhan Adabala</b>
-							<b>a web developer</b>
-							<b>a chess player</b>
-							<b>a freelancer</b>
-						</span>
-                    </h1>
-                    <p>I'm Courteous and enthusiastic, I am interested in IT and everything in its orbit.
-                        Innovative optimized solution seeker. I am hardworking, friendly, and reliable;
-                        with a passion for learning new technologies.</p>
-                    <div class="call-to-actions-home">
-                        <div class="text-left">
-                            <a href="#about" class="btn link-portfolio-one"><span><i class="fa fa-user"></i>more about me</span></a>
-                            <a href="#work" class="btn btn-secondary link-portfolio-two"><span><i class="fa fa-suitcase"></i>portfolio</span></a>
+
+        <section class="bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card public-profile border-0 rounded shadow no-margin" style="z-index: 1;">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-3 col-md-4 text-md-left text-center">
+                                        <!--<img src="images/client/05.jpg" class="avatar avatar-large rounded-circle shadow d-block mx-auto" alt="">-->
+                                        <div class="about-details key-feature bg-light">
+                                            <div class="media-body content">
+                                                <h6 class="title mb-2">Personal Details</h6>
+                                                <div class="bor-bottom mt-2 mb-2"></div>
+                                                <p class="text-muted mb-2 mt-3 font-14"><a href="javascript:void(0)" class="text-black">Email: </a> vardhanchess@gmail.com</p>
+                                                <p class="text-muted mb-2 font-14"><a href="javascript:void(0)" class="text-black">Languages: </a> English, Telugu, Hindi</p>
+                                                <p class="text-muted mb-0 font-14"><a href="javascript:void(0)" class="text-black">Nationality: </a> Indian</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-9 col-md-8">
+                                        <div class="row align-items-end">
+                                            <div class="col-md-12 text-md-left text-center mt-4 mt-sm-0">
+                                                <h4 class="heading mr-2">I Am <span class="element text-primary" data-elements="Web Developer, Freelancer, Chess Player, Web Developer"></span></h4>
+                                                <p class="text-light-muted mt-2">I'm Courteous and enthusiastic, I am interested
+                                                    in IT and everything in its orbit. Innovative optimized solution seeker.
+                                                    I am hardworking, friendly, and reliable; with a passion for learning new
+                                                    technologies.</p>
+                                                <img src="images/sign.png" height="35" alt="">
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section -->
+
+        <!-- Service Start -->
+<!--        <section class="section bg-light" id="services">-->
+<!--            <div class="container">-->
+<!--                <div class="row justify-content-center">-->
+<!--                    <div class="col-12 text-center">-->
+<!--                        <div class="container-title text-center mb-4 pb-2">-->
+<!--                            <div class="titles">-->
+<!--                                <h2 class="title text-capitalize mb-4">Awesome Service</h2>-->
+<!--                                <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">Obviously I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.</p>-->
+<!--                                <span></span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>&lt;!&ndash;end col&ndash;&gt;-->
+<!--                </div>&lt;!&ndash;end row&ndash;&gt;-->
+
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-4 col-md-5 col-sm-6 mt-4 pt-2">-->
+<!--                        <div class="feature-widget text-left rounded">-->
+<!--                            <div class="services-icon text-primary mb-3">-->
+<!--                                <i data-feather="monitor" class="fea icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="services-texts">-->
+<!--                                <h3 class="title mb-3">Web Developmnet</h3>-->
+<!--                                <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page without coding.</p>-->
+<!--                                <a href="javascript:void(0)" class="text-primary">Read more <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4 col-md-5 col-sm-6 offset-md-1 offset-lg-0 mt-4 pt-2">-->
+<!--                        <div class="feature-widget text-left rounded">-->
+<!--                            <div class="services-icon text-primary mb-3">-->
+<!--                                <i data-feather="feather" class="fea icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="services-texts">-->
+<!--                                <h3 class="title mb-3">Design & Planning</h3>-->
+<!--                                <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page without coding.</p>-->
+<!--                                <a href="javascript:void(0)" class="text-primary">Read more <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4 col-md-5 col-sm-6 mt-4 pt-2">-->
+<!--                        <div class="feature-widget text-left rounded">-->
+<!--                            <div class="services-icon text-primary mb-3">-->
+<!--                                <i data-feather="disc" class="fea icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="services-texts">-->
+<!--                                <h3 class="title mb-3">Adobe Photoshop</h3>-->
+<!--                                <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page without coding.</p>-->
+<!--                                <a href="javascript:void(0)" class="text-primary">Read more <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="row">-->
+<!--                    <div class="col-lg-4 col-md-5 col-sm-6 mt-4 pt-2">-->
+<!--                        <div class="feature-widget text-left rounded">-->
+<!--                            <div class="services-icon text-primary mb-3">-->
+<!--                                <i data-feather="layout" class="fea icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="services-texts">-->
+<!--                                <h3 class="title mb-3">Digital marketing</h3>-->
+<!--                                <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page without coding.</p>-->
+<!--                                <a href="javascript:void(0)" class="text-primary">Read more <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4 col-md-5 col-sm-6 mt-4 pt-2">-->
+<!--                        <div class="feature-widget text-left rounded">-->
+<!--                            <div class="services-icon text-primary mb-3">-->
+<!--                                <i data-feather="watch" class="fea icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="services-texts">-->
+<!--                                <h3 class="title mb-3">24 / 7</h3>-->
+<!--                                <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page without coding.</p>-->
+<!--                                <a href="javascript:void(0)" class="text-primary">Read more <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-lg-4 col-md-5 col-sm-6 mt-4 pt-2">-->
+<!--                        <div class="feature-widget text-left rounded">-->
+<!--                            <div class="icon services-icon text-primary mb-3">-->
+<!--                                <i data-feather="target" class="fea icon-md"></i>-->
+<!--                            </div>-->
+<!--                            <div class="services-texts">-->
+<!--                                <h3 class="title mb-3">Graphic Designer</h3>-->
+<!--                                <p class="text-light-muted mb-4">With lots of unique blocks, you can easily build a page without coding.</p>-->
+<!--                                <a href="javascript:void(0)" class="text-primary">Read more <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+        <!-- End Start -->
+
+
+        <!-- Start Section -->
+        <section class="section" id="resume" style="background-image:url('images/bg-pattern.png')">
+            <div class="container">
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-4">
+                        <div class="work-content mt-4">
+                            <h2 class="text-capitalize">Work  Participation</h2>
+                            <p class="mb-0 text-light-muted">Experienced with all stages of the development cycle for dynamic web projects.</p>
+                            <a href="#contact" class="btn btn btn-primary rounded mt-4 pt-2">Get in Touch <i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 ">
+                        <div class="row">
+                            <div class="main-timeline">
+                                <div class="timeline mt-4">
+                                    <a href="#" class="timeline-content">
+                                        <div class="timeline-icon">
+                                            <i data-feather="target" class="fea icon-md"></i>
+                                        </div>
+                                        <h3 class="title mb-0">Site Admin</h3>
+                                        <small class="company">FERMIBOT</small>
+                                        <span class="badge skill-badge education-badge badge-light">2018 - Present</span>
+                                        <p class="description text-light-muted mt-2">
+                                            I am serving as an admin and I manage the organizational aspects of the site.
+                                        </p>
+                                    </a>
+                                </div>
+                                <div class="timeline mt-4">
+                                    <a href="#" class="timeline-content">
+                                        <div class="timeline-icon">
+                                            <i data-feather="target" class="fea icon-md"></i>
+                                        </div>
+                                        <h3 class="title mb-0">Internship Trainee</h3>
+                                        <small class="company">RUDRA LABS PTE LTD</small>
+                                        <span class="badge skill-badge education-badge margin-50 badge-light">June 2019 - July 2019</span>
+                                        <p class="description text-light-muted mt-2">
+                                            Worked as an Intern Software Test Engineer
+                                        </p>
+                                    </a>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div><!-- end container -->
+        </section><!-- end section -->
+
+        <!-- Client Start -->
+
+                <div class="row" id="counter">
+
+                </div><!--end row-->
+
+        <!-- End Section Client -->
+
+        <!-- Skill & CTA START -->
+        <section class="cta-full">
+            <div class="container">
+                <div class="row position-relative">
+                    <div class="col-lg-4 padding-less img" style="background-image:url('images/IMG_9477.JPG')" data-jarallax='{"speed": 0.5}'></div><!-- end col -->
+                    <div class="col-lg-8 offset-lg-5">
+                        <div class="cta-full-img-box">
+                            <div class="row justify-content-center">
+                                <div class="col-12 text-center mb-3">
+                                    <div class="container-title">
+                                        <div class="titles">
+                                            <h4 class="title title-line text-capitalize mb-4">Work Expertise</h4>
+                                        </div>
+
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/bootstrap.svg" alt="" title="Bootstrap" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">70%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/javascript.svg" alt="" title="Javascript" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">55%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/html5.svg" alt="" title="HTML5" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">68%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/css3.svg" alt="" title="CSS3" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">75%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->    
+                            </div><!-- end row -->
+
+                            <div class="row align-items-center">
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/blogger.svg" alt="" title="Blogger" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">80%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/wordpress.svg" alt="" title="Wordpress" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">70%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/git.svg" alt="" title="Git" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/mathematica.svg" alt="" title="Mathematica" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/arduino.svg" alt="" title="Arduino" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/ethereum.svg" alt="" title="Ethereum Blockchain" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/hyp.png" alt="" title="Hyperledger Blockchain" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+
+                                <div class="col-lg-3 col-6 mt-4 pt-2">
+                                    <div class="card explore-feature border-0 text-center bg-white p-3">
+                                        <div class="card-body p-0">
+                                            <div class="skill-icon rounded-circle shadow-lg d-inline-block">
+                                                <img src="images/skills/illustrator.svg" alt="" title="Adobe Illustrator" class="img-fluid mx-auto">
+                                            </div>
+                                            <span class="badge skill-badge badge-light">65%</span>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!-- end row -->
+
+                        </div> <!-- end about detail -->
+                    </div> <!-- end col -->        
+                </div><!--end row-->
+            </div><!--end container fluid-->
+        </section><!--end section-->   
+        <!-- Skill & CTA End -->
+
+
+        <!-- Projects/Work Start -->
+        <section class="section bg-light" id="projects">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="container-title text-center mb-4 pb-2">
+                            <div class="titles">
+                                <h2 class="title text-capitalize mb-4">My Work & Portfolio</h2>
+                                <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">A FEW RECENT DESIGN AND CODING PROJECTS. WANT TO SEE MORE? EMAIL ME.</p>
+                                <span></span>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                            <div class="card-body p-0">
+                                <img src="images/projects/b5.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <h5 class="mb-0"><a href="page-portfolio-detail.html" class="text-white title">Blockchain Voting</a></h5>
+                                    <h6 class="text-light tag mb-0">Application</h6>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/projects/b5.png" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                            <div class="card-body p-0">
+                                <img src="images/projects/geo1.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <h5 class="mb-0"><a href="page-portfolio-detail.html" class="text-white title">Clustering Geolocation Data</a></h5>
+                                    <h6 class="text-light tag mb-0">Python Application</h6>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/projects/geo1.png" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                            <div class="card-body p-0">
+                                <img src="images/projects/ai1.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <h5 class="mb-0"><a href="page-portfolio-detail.html" class="text-white title">Face Attendance</a></h5>
+                                    <h6 class="text-light tag mb-0">AI Application</h6>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/projects/ai1.png" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                            <div class="card-body p-0">
+                                <img src="images/projects/vardhanhappy.PNG" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <h5 class="mb-0"><a href="page-portfolio-detail.html" class="text-white title">Face Emotion Recognition</a></h5>
+                                    <h6 class="text-light tag mb-0">DL Application</h6>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/projects/vardhanhappy.PNG" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card border-0 work-container work-modern position-relative d-block overflow-hidden rounded">
+                            <div class="card-body p-0">
+                                <img src="images/projects/rock.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-dark"></div>
+                                <div class="content">
+                                    <h5 class="mb-0"><a href="page-portfolio-detail.html" class="text-white title">Rock Paper Scissors</a></h5>
+                                    <h6 class="text-light tag mb-0">ML Application</h6>
+                                </div>
+                                <div class="icons text-center">
+                                    <a href="images/projects/rock.png" class="text-primary work-icon bg-white d-inline-block rounded-pill mfp-image"><i data-feather="camera" class="fea icon-sm"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+
+
+<!--                    <div class="col-12 mt-4 pt-2">-->
+<!--                        <div class="text-center">-->
+<!--                            <a href="page-portfolio.html" class="btn btn btn-primary rounded">See More <i class="mdi mdi-chevron-right"></i></a>-->
+<!--                        </div>-->
+<!--                    </div>&lt;!&ndash;end col&ndash;&gt;-->
+                </div><!--end row-->
             </div>
-            <!-- Text Rotator Ends -->
+            <!-- End container -->
         </section>
-        <!-- Home Section Ends -->
-        <!-- About Section Starts -->
-        <section id="about">
-            <!-- Main Heading Starts -->
-            <div class="container page-title text-center">
-                <h2 class="text-center">about <span>me</span></h2>
-                <span class="title-head-subtitle">I design and code beautiful things, and I love what I do.</span>
-            </div>
-            <!-- Main Heading Ends -->
-            <div class="container infos">
-                <div class="row personal-info">
-                    <!-- Personal Infos Starts -->
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-                        <div class="image-container">
-                            <img class="img-fluid d-block" src="img/IMG_9477.JPG"  alt="" />
-                        </div>
-                        <p  class="d-block d-md-none">I'm a Freelance UI/UX Designer and Developer. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
-                    </div>
-                    <div class="row col-xl-6 col-lg-6 col-md-12">
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <ul class="list-1">
-                                <li>
-                                    <h6><span class="font-weight-600">First Name</span>Vardhan</h6>
-                                </li>
-                                <li>
-                                    <h6><span class="font-weight-600">Last Name</span>Adabala</h6>
-                                </li>
-
-                                <li>
-                                    <h6><span class="font-weight-600">Nationality</span>Indian</h6>
-                                </li>
-
-                                <li>
-                                    <h6><span class="font-weight-600">Address</span>Hyderabad</h6>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                            <ul class="list-2">
-                                <li>
-                                    <h6><span class="font-weight-600">Freelance</span>Available</h6>
-                                </li>
-                                <li>
-                                    <h6><span class="font-weight-600">Langages</span>English,Hindi,Telugu</h6>
-                                </li>
-                                <li>
-                                    <h6><span class="font-weight-600">Phone</span>+91 9398 414 866</h6>
-                                </li>
-                                <li>
-                                    <h6><span class="font-weight-600">Email</span>vardhanchessgmail.com</h6>
-                                </li>
+        <!-- Projects End -->
 
 
-                            </ul>
-                        </div>
-                        <div class="col-12 resume-btn-container">
-                            <a href="Resume.pdf" class="btn btn-resume" download><span><i class="fa fa-download"></i>download my cv</span></a>
-                        </div>
-                    </div>
-                    <!-- Personal Infos Ends -->
-                </div>
-            </div>
-            <!-- Download CV Starts -->
-            <div class="container col-12 mx-auto text-center">
-                <hr class="about-section" />
-            </div>
-            <!-- Download CV Ends -->
-            <!-- Resume Starts -->
-            <div class="resume-container">
-                <div class="container">
-                    <div class="row">
-                        <!-- Experience Starts -->
-                        <div class="col-xl-6 col-lg-6 col-md-6">
-                            <h2 class="font-weight-600 uppercase title-section">experience</h2>
-                            <div class="resume-items">
-                                <!-- Item Starts -->
-                                <div class="item">
-                                    <span class="bullet"></span>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2018 - Present</span>
-                                            <span class="d-block font-weight-400 uppercase">
-												Admin
-												<span class="separator"></span>
-                                                <span class="font-weight-700">Fermibot</span>
-                                                </span>
-                                        </div>
-                                        <div class="card-body">
-                                            <p> I am serving as an admin and I manage the organizational aspects of the site.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Item Ends -->
-                                <!-- Item Starts -->
-<!--                                <div class="item">-->
-<!--                                    <span class="bullet"></span>-->
-<!--                                    <div class="card">-->
-<!--                                        <div class="card-header">-->
-<!--                                            <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2010 - 2014</span>-->
-<!--                                            <span class="d-block font-weight-400 uppercase">-->
-<!--												Consultant-->
-<!--												<span class="separator"></span>-->
-<!--                                                <span class="font-weight-700">Google</span>-->
-<!--                                                </span>-->
-<!--                                        </div>-->
-<!--                                        <div class="card-body">-->
-<!--                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet diam nonummy.</p>-->
-<!--                                        </div>-->
-<!--                                    </div>-->
-<!--                                </div>-->
-                                <!-- Item Ends -->
-                                <!-- Item Starts -->
-                                <div class="item">
-                                    <span class="bullet"></span>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>June 2019 - July 2019</span>
-                                            <span class="d-block font-weight-400 uppercase">
-												Internship Trainee
-												<span class="separator"></span>
-                                                <span class="font-weight-700">Rudra Labs Pte Ltd</span>
-                                                </span>
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Worked as an Intern Software Test Engineer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Item Ends -->
 
-                            </div>
 
-                        </div>
-                        <!-- Experience Ends -->
-                        <!-- Education Starts -->
-                        <div class="col-xl-6 col-lg-6 col-md-6 skills-container">
-                            <h2 class="font-weight-600 uppercase title-section">Education</h2>
-                            <div class="resume-items">
-                                <!-- Item Starts -->
-                                <div class="item">
-                                    <span class="bullet"></span>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2016 - 2020</span>
-                                            <span class="d-block font-weight-400 uppercase">
-												B.Tech
-												<span class="separator"></span>
-                                                <span class="font-weight-700"> Joginpally B R Engineering College</span>
-                                                </span>
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Specialization: Information Technology</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Item Endss -->
-                                <!-- Item Starts -->
-                                <div class="item">
-                                    <span class="bullet"></span>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2014 - 2016</span>
-                                            <span class="d-block font-weight-400 uppercase">
-												Higher Secondary
-												<span class="separator"></span>
-                                                <span class="font-weight-700">Narayana Junior College </span>
-                                                </span>
-                                        </div>
-                                        <div class="card-body">
-                                            <p>Specialization: MPC</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Item Ends -->
-                                <!-- Item Starts -->
-                                <div class="item">
-                                    <span class="bullet"></span>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <span class="year"><i class="fa fa-calendar"></i><i class="fa fa-caret-right"></i>2002 - 2014</span>
-                                            <span class="d-block font-weight-400 uppercase">
-												Secondary
-												<span class="separator"></span>
-                                                <span class="font-weight-700">St.Patrick's High School</span>
-                                                </span>
-                                        </div>
-                                        <div class="card-body">
-                                            <p><BR><BR></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Item Ends -->
+
+
+        <!-- Contact Start -->
+        <section class="section pb-0" id="contact">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="container-title text-center mb-4 pb-2">
+                            <div class="titles">
+                                <h2 class="title text-capitalize mb-4">Contact Me</h2>
+                                <p class="pera-title para-desc-600 text-light-muted mb-0 mx-auto">If you have any
+                                    suggestion, project or even you want to say Hello.. please fill out the form below
+                                    and I will reply you shortly.</p>
+                                <span></span>
                             </div>
                         </div>
-                        <!-- Education Ends -->
-                    </div>
-                    <!-- Skills Starts -->
-                    <div class="row">
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12">
-                            <h2 class="font-weight-600 uppercase title-section skills-title">skills</h2>
-                        </div>
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">html</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="80" style="width: 80%;"></span>
-                                <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Testing</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="60" style="width: 60%;"></span>
-                                <span class="percent" style="right: calc(40% - 21px);">60%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">css</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="75" style="width: 75%;"></span>
-                                <span class="percent" style="right: calc(25% - 21px);">75%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Blogger</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="65" style="width: 65%;"></span>
-                                <span class="percent" style="right: calc(35% - 21px);">65%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">wordpress</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="90" style="width: 90%;"></span>
-                                <span class="percent" style="right: calc(10% - 21px);">90%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">git</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="85" style="width: 85%;"></span>
-                                <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Mathematica</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="60" style="width: 60%;"></span>
-                                <span class="percent" style="right: calc(40% - 21px);">60%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Arduino</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="65" style="width: 65%;"></span>
-                                <span class="percent" style="right: calc(35% - 21px);">65%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
+                    </div><!--end col-->
+                </div><!--end row-->
 
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Logo Design</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="80" style="width: 80%;"></span>
-                                <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
+                <div class="row">
+                    <div class="col-md-6 mt-6 pt-2">
+                        <div class="contact-detail text-center">
+                            <div class="icon">
+                                <i data-feather="phone" class="fea icon-md"></i>
                             </div>
+                            <div class="content mt-4">
+                                <h5 class="title">Phone</h5>
+                                <a href="tel:+919398-414-866" class="text-primary">+91 9398-414-866</a>
+                            </div>  
                         </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Blockchain</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="80" style="width: 80%;"></span>
-                                <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
+                    </div><!--end col-->
+                    
+                    <div class="col-md-6 mt-6 pt-2">
+                        <div class="contact-detail text-center">
+                            <div class="icon">
+                                <i data-feather="mail" class="fea icon-md"></i>
                             </div>
+                            <div class="content mt-4">
+                                <h5 class="title">Email</h5>
+                                <a href="mailto:vardhanchess@gmail.com" class="text-primary">vardhanchess@gmail.com</a>
+                            </div>  
                         </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Ethical Hacking</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="80" style="width: 80%;"></span>
-                                <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Python</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="85" style="width: 85%;"></span>
-                                <span class="percent" style="right: calc(15% - 21px);">85%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Deep learning</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="75" style="width: 75%;"></span>
-                                <span class="percent" style="right: calc(25% - 21px);">80%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                        <!-- Skill Bar Starts -->
-                        <div class="col-12 col-sm-6 col-md-4">
-                            <span class="skill-text">Bootstrap</span>
-                            <div class="chart-bar">
-                                <span class="item-progress" data-percent="80" style="width: 80%;"></span>
-                                <span class="percent" style="right: calc(20% - 21px);">80%<div class="arrow"></div></span>
-                            </div>
-                        </div>
-                        <!-- Skill Bar Ends -->
-                    </div>
-                    <!-- Skills Starts -->
-                </div>
+                    </div><!--end col-->
+                    
 
-                <!-- Resume Ends -->
-            </div>
-        </section>
-        <!-- About Section Ends -->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
 
-        <!-- Portfolio Section Starts -->
-        <section id="work">
-            <div class="portfolio-container">
-                <!-- Main Heading Starts -->
-                <div class="container page-title text-center">
-                    <h2 class="text-center">my <span>portfolio</span></h2>
-                    <span class="title-head-subtitle">a few recent design and coding projects. Want to see more? Email me.</span>
-                </div>
-                <!-- Main Heading Ends -->
-                <div class="portfolio-section">
-                    <div class="container cd-container">
-                        <div>
-                            <!-- Portfolio Items Starts -->
-                            <ul class="row" id="portfolio-items">
-
-                                <!-- Portfolio Item Starts -->
-                                <li class="col-12 col-md-6 col-lg-6">
-                                    <a href="#" data-type="project-2">
-                                        <img src="img/projects/b2.png" alt="Project" class="img-fluid">
-                                        <div><span>Online Voting System Using Blockchain Technology</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <!-- Portfolio Item Ends -->
-								<!-- Portfolio Item Starts -->
-                                <li class="col-12 col-md-6 col-lg-6">
-                                    <a href="#" data-type="project-1">
-                                        <img src="img/projects/vardhanhappy.PNG" alt="Project" class="img-fluid">
-                                        <div><span>Face Emotion Recognition Using Deep CNN</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <!-- Portfolio Item Ends -->
-                                <!-- Portfolio Item Starts -->
-                                <li class="col-12 col-md-6 col-lg-6">
-                                    <a href="#" data-type="project-3">
-                                        <img src="img/projects/geo1.png" alt="Project" class="img-fluid">
-                                        <div><span>Clustering Geolocation Data Intelligently in Python</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <!-- Portfolio Item Ends -->
-                                
-                                <!-- Portfolio Item Starts -->
-                                <li class="col-12 col-md-6 col-lg-6">
-                                    <a href="#" data-type="project-4">
-                                        <img src="img/projects/ai2.png" alt="Project" class="img-fluid">
-                                        <div><span>AI Face Attendance System</span>
-                                        </div>
-                                    </a>
-                                </li>
-                                <!-- Portfolio Item Ends -->
-
-
-                            </ul>
-                            <!-- Portfolio Items Ends -->
-                        </div>
-                    </div>
-                </div>
-                <!-- PORTFOLIO OVERLAY STARTS -->
-                <div class="portfolio-overlay"></div>
-                <!-- PORTFOLIO OVERLAY ENDS -->
-            </div>
-            <!-- Portfolio Project Content Starts -->
-            <!-- Portfolio Project Content Starts -->
-                <div class="project-info-container project-6">
-                    <!-- Main Content Starts -->
-                    <div class="project-info-main-content">
-                        <img src="img/projects/project-4.jpg" alt="Project Image">
-                    </div>
-                    <!-- Main Content Ends -->
-                    <!-- Project Details Starts -->
-                    <div class="projects-info row">
-                        <div class="col-12 col-sm-6 p-none">
-                            <h3 class="font-weight-600 uppercase">Image Format</h3>
-                            <ul class="project-details">
-                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
-                                </li>
-                                <li><i class="fa fa-user-o"></i><span class="font-weight-400 project-label"> Client </span>: <span class="font-weight-600 uppercase">Envato</span>
-                                </li>
-                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">3 months</span>
-                                </li>
-                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, javascript</span>
-                                </li>
-                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">1550 USD</span>
-                                </li>
-                            </ul>
-                            <a href="#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a>
-                        </div>
-                        <div class="col-6 p-none text-right">
-                            <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
-                        </div>
-                    </div>
-                    <!-- Project Details Ends -->
-                </div>
-                <!-- Portfolio Project Content Ends -->
-                <!-- Portfolio Project Content Starts -->
-                <div class="project-info-container project-7">
-                    <!-- Main Content Starts -->
-                    <div class="project-info-main-content">
-                        <img src="img/projects/project-7.jpg" alt="Project Image">
-                    </div>
-                    <!-- Main Content Ends -->
-                    <!-- Project Details Starts -->
-                    <div class="projects-info row">
-                        <div class="col-12 col-sm-6 p-none">
-                            <h3 class="font-weight-600 uppercase">Image Format</h3>
-                            <ul class="project-details">
-                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
-                                </li>
-                                <li><i class="fa fa-user-o"></i><span class="font-weight-400 project-label"> Client </span>: <span class="font-weight-600 uppercase">Envato</span>
-                                </li>
-                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">3 months</span>
-                                </li>
-                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, javascript</span>
-                                </li>
-                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">1550 USD</span>
-                                </li>
-                            </ul>
-                            <a href="#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a>
-                        </div>
-                        <div class="col-6 p-none text-right">
-                            <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
-                        </div>
-                    </div>
-                    <!-- Project Details Ends -->
-                </div>
-                <!-- Portfolio Project Content Ends -->
-                <!-- Portfolio Project Content Starts -->
-                <div class="project-info-container project-8">
-                    <!-- Main Content Starts -->
-                    <div class="project-info-main-content">
-                        <img src="img/projects/project-3.jpg" alt="Project Image">
-                    </div>
-                    <!-- Main Content Ends -->
-                    <!-- Project Details Starts -->
-                    <div class="projects-info row">
-                        <div class="col-12 col-sm-6 p-none">
-                            <h3 class="font-weight-600 uppercase">Image Format</h3>
-                            <ul class="project-details">
-                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
-                                </li>
-                                <li><i class="fa fa-user-o"></i><span class="font-weight-400 project-label"> Client </span>: <span class="font-weight-600 uppercase">Envato</span>
-                                </li>
-                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">3 months</span>
-                                </li>
-                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, javascript</span>
-                                </li>
-                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">1550 USD</span>
-                                </li>
-                            </ul>
-                            <a href="#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a>
-                        </div>
-                        <div class="col-6 p-none text-right">
-                            <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
-                        </div>
-                    </div>
-                    <!-- Project Details Ends -->
-                </div>
-                <!-- Portfolio Project Content Ends -->
-				<!-- Portfolio Project Content Starts -->
-                <div class="project-info-container project-9">
-                    <!-- Main Content Starts -->
-                    <div class="project-info-main-content">
-                        <img src="img/projects/project-9.jpg" alt="Project Image">
-                    </div>
-                    <!-- Main Content Ends -->
-                    <!-- Project Details Starts -->
-                    <div class="projects-info row">
-                        <div class="col-12 col-sm-6 p-none">
-                            <h3 class="font-weight-600 uppercase">Image Format</h3>
-                            <ul class="project-details">
-                                <li><i class="fa fa-file-text-o"></i><span class="font-weight-400 project-label"> Project </span>: <span class="font-weight-600 uppercase">Website</span>
-                                </li>
-                                <li><i class="fa fa-user-o"></i><span class="font-weight-400 project-label"> Client </span>: <span class="font-weight-600 uppercase">Envato</span>
-                                </li>
-                                <li><i class="fa fa-hourglass-o"></i><span class="font-weight-400 project-label"> Duration </span>: <span class="font-weight-600 uppercase">3 months</span>
-                                </li>
-                                <li><i class="fa fa-code"></i> <span class="font-weight-400 project-label"> Technologies</span> : <span class="font-weight-600 uppercase">html, javascript</span>
-                                </li>
-                                <li><i class="fa fa-money"></i> <span class="font-weight-400 project-label"> Budget</span> : <span class="font-weight-600 uppercase">1550 USD</span>
-                                </li>
-                            </ul>
-                            <a href="#" class="btn"><span><i class="fa fa-external-link"></i>preview</span></a>
-                        </div>
-                        <div class="col-6 p-none text-right">
-                            <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i>Close</span></a>
-                        </div>
-                    </div>
-                    <!-- Project Details Ends -->
-            </div>
-            <!-- Portfolio Project Content Ends -->
-
-            <span class="back-mobile close-project"><i class="fa fa-arrow-left"></i></span>
-        </section>
-        <!-- Portfolio Section Ends -->
-
-
-        <!-- Contact Section Starts -->
-        <section id="contact">
-            <div class="contact-container">
-                <!-- Main Heading Starts -->
-                <div class="container page-title text-center">
-                    <h2 class="text-center">get <span>in touch</span></h2>
-                    <span class="title-head-subtitle">I’m always open to discussing product design work or partnerships.</span>
-                </div>
-                <!-- Main Heading Ends -->
-                <div class="container">
-                    <div class="row contact">
-                        <!-- Contact Infos Starts -->
-                        <div class="col-12 col-md-4 col-xl-4 leftside">
-                            <ul class="custom-list">
-                                <li>
-                                    <h6 class="font-weight-600"> <span class="contact-title">Phone</span><i class="fa fa-whatsapp"></i><span class="contact-content">+91 9398414866</span></h6>
-                                </li>
-                                <li>
-                                    <h6 class="font-weight-600"> <span class="contact-title">email</span><i class="fa fa-envelope-o fs-14"></i><span class="contact-content">vardhanchess@gmail.com</span></h6>
-
-                                </li>
-                                <li>
-                                    <h6 class="font-weight-600"><span class="contact-title">instagram</span><i class="fa fa-instagram"></i><span class="contact-content">vardhan_adabala</span></h6>
-
-                                </li>
-
-                            </ul>
-
-                            <!-- Social Media Profiles Starts -->
-
-                            <div class="social">
-                                <h6 class="font-weight-600 uppercase">Social Profiles</h6>
-                                <ul class="list-inline social social-intro text-center p-none">
-                                    <li class="facebook"><a title="Facebook" href="https://facebook.com/vardhan.adabala"><i class="fa fa-facebook"></i></a>
-                                    </li>
-                                    <li class="twitter"><a title="Twitter" href="https://twitter.com/AdabalaVardhan"><i class="fa fa-twitter"></i></a>
-                                    </li>
-                                    <li class="linkedin"><a title="linkedin" href="https://www.linkedin.com/in/vardhan-adabala-7b5853184"><i class="fa fa-linkedin"></i></a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <!-- Social Media Profiles Ends -->
-                        </div>
-                        <!-- Contact Infos Ends -->
-                        <!-- Contact Form Starts -->
-                        <div class="col-12 col-md-8 col-xl-8 rightside">
-                            <p>
-                                If you have any suggestion, project or even you want to say Hello.. please fill out the form below and I will reply you shortly.
-                            </p>
-                            <form class="contactform" method="post" action="https://send.pageclip.co/JANVTe7LINLbfni0J2UAtnpKnNI1dyua">
+        <section class="section pt-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="custom-form mb-sm-30">
+                            <div id="message"></div>
+                            <form method="post" action="#" name="contact-form" id="contact-form">
                                 <div class="row">
-                                    <!-- Name Field Starts -->
-                                    <div class="form-group col-xl-6"> <i class="fa fa-user prefix"></i>
-                                        <input id="name" name="name" type="text" class="form-control" placeholder="YOUR NAME" required>
-                                    </div>
-                                    <!-- Name Field Ends -->
-                                    <!-- Email Field Starts -->
-                                    <div class="form-group col-xl-6"> <i class="fa fa-envelope prefix"></i>
-                                        <input id="email" type="email" name="email" class="form-control" placeholder="YOUR EMAIL" required>
-                                    </div>
-                                    <!-- Email Field Ends -->
-                                    <!-- Comment Textarea Starts -->
-                                    <div class="form-group col-xl-12"> <i class="fa fa-comments prefix"></i>
-                                        <textarea id="message" name="message" class="form-control" placeholder="YOUR MESSAGE" required></textarea>
-                                    </div>
-                                    <!-- Comment Textarea Ends -->
-                                </div>
-                                <!-- Submit Form Button Starts -->
-                                <div class="submit-form">
-                                    <button class="btn button-animated" type="submit" name="send"><span><i class="fa fa-send"></i> Send Message</span></button>
-                                </div>
-                                <!-- Submit Form Button Ends -->
-                                <div class="form-message"> <span class="output_message text-center font-weight-600 uppercase"></span>
-                                </div>
-                            </form>
-                        </div>
-                        <!-- Contact Form Ends -->
+                                    <div class="col-lg-6">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-6">
+                                                <div class="form-group">
+                                                    <input name="name" id="name" type="text" class="form-control border rounded" placeholder="First Name :">
+                                                </div>
+                                            </div><!--end col-->
+                                            <div class="col-lg-12 col-md-6">
+                                                <div class="form-group">
+                                                    <input name="email" id="email" type="email" class="form-control border rounded" placeholder="Your email :">
+                                                </div> 
+                                            </div><!--end col-->
+                                            <div class="col-lg-12">
+                                                <div class="form-group">
+                                                    <input name="subject" id="subject" class="form-control border rounded" placeholder="Your subject :">
+                                                </div>                                                                               
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </div><!--end col-->
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Section Ends -->
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <textarea name="comments" id="comments" rows="4" class="form-control border rounded" placeholder="Your Message :"></textarea>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                                <div class="row">
+                                    <div class="col-sm-12 text-right">
+                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn btn-primary rounded" value="Send Message"> 
+                                        <div id="simple-msg"></div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </form><!--end form-->
+                        </div><!--end custom-form-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Contact End -->
 
-    </main>
-</div>
-<!-- Main Content Ends -->
-<!-- Preloader Starts -->
-<div class="preloader">
-    <div class="preloader-container">
-        <h1>Vardhan</h1>
-        <div id="progress-line-container">
-            <div class="progress-line"></div>
-        </div>
-        <h1>Adabala</h1>
-    </div>
-</div>
-<!-- Preloader Ends -->
+        <!-- Footer Start -->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <ul class="list-unstyled mb-0 mt-4 social-icon">
+                            <li class="list-inline-item mr-1"><a href="https://facebook.com/vardhan.adabala" class="rounded-circle"><i class="mdi mdi-facebook"></i></a></li>
+                            <li class="list-inline-item mr-1"><a href="https://twitter.com/AdabalaVardhan" class="rounded-circle"><i class="mdi mdi-twitter"></i></a></li>
+                            <li class="list-inline-item mr-1"><a href="https://www.instagram.com/vardhan_adabala" class="rounded-circle"><i class="mdi mdi-instagram"></i></a></li>
+                            <li class="list-inline-item mr-1"><a href="https://www.linkedin.com/in/vardhan-adabala-7b5853184" class="rounded-circle"><i class="mdi mdi-linkedin"></i></a></li>
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
 
-<!--  JS Files -->
-<script src="js/jquery-2.2.4.min.js"></script>
-<script src="js/jquery.animatedheadline.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/transition.js"></script>
+        <!-- Footer End -->
 
-<!-- Main JS Initialization File -->
-<script src="js/custom.js"></script>
+        <a href="#" class="btn btn-icon btn-soft-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Back to top -->
 
 
-</body>
 
+        <!-- Javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/scrollspy.min.js"></script>
+
+        <!-- Magnific Js -->
+        <script src="js/isotope.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific.init.js"></script>
+
+        <!-- Slider Js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/owl.init.js"></script>
+
+        <!-- Contact -->
+        <script src="js/contact.js"></script>
+
+        <!-- Counter init -->
+        <script src="js/counter.init.js"></script>
+
+        <!-- Feather icon -->
+        <script src="js/feather.min.js"></script>
+
+        <!-- Ripples -->
+        <script src="js/jquery.ripples-min.js"></script>
+        <script src="js/ripple.init.js"></script>
+
+        <!-- Typed -->
+        <script src="js/typed.js"></script>
+        <script src="js/typed.init.js"></script>
+        
+        <!-- Flickity Js -->
+        <script src="js/flickity.pkgd.min.js"></script>
+
+        <!-- Main Js -->
+        <script src="js/app.js"></script>
+
+    </body>
 
 
 </html>
