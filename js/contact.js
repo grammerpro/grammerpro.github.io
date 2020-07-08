@@ -1,4 +1,4 @@
-    // Working Contact Form
+    //  Contact Form
     $('#contact-form').submit(function() {
         var action = $(this).attr('action');
 
@@ -21,7 +21,7 @@
                         $(this).remove()
                     });
                     $('#submit').removeAttr('disabled');
-                    if (data.match('success') == null) $('#cform').slideUp('slow');
+                    if (data.match('success') != null) $('#cform').slideUp('slow');
                 }
             );
 
